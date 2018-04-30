@@ -5,4 +5,4 @@
 팀원 : 차윤성
 팀원 : 박채영
 
-![Alt text](/img/logo.png)
+![Alt text](/img/logo.PNG)
