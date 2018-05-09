@@ -1,0 +1,17 @@
+body.background
+{
+	font-family: "¸¼Àº °íµñ", Times, monospace;
+	background : #E8F6A4;
+	text-align: center;
+	width : 540px;
+	height : 960px;
+	border : 10px solid black;
+	margin : 0px;
+	position : absolute;
+}
+.string_small
+{
+	font-weight : 400;
+	font-size : 20px;
+	color : #385000;
+}
