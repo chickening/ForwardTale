@@ -5,9 +5,27 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <link rel = "stylesheet" type = "text/css" href = "defalut.css">
+<link rel = "stylesheet" type = "text/css" href = "page_2.css">
 <title>Insert title here</title>
 </head>
 <body class = "background">
-	두번째 페이지입니다.
+	<button class ="button_menu button_color_1">
+	오늘의 일정
+	</button>
+	<button class ="button_menu button_color_2">
+	일정 관리
+	</button>
+	<button class ="button_menu button_color_3">
+	친구의 일정
+	</button>
+	<button class ="button_menu button_color_4">
+	설정
+	</button>
+	<button class ="button_menu button_color_5">
+	오늘의 일정
+	</button>
+	<button class ="button_menu button_color_6">
+	끝내기
+	</button>
 </body>
 </html>

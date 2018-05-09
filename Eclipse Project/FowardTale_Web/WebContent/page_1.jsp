@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body class ="background">
-	<img src = "C:\Users\chickening\Documents\GitHub\ForwardTale\Eclipse Project\FowardTale_Web\WebContent\img\page_1\logo.png" class = "img_logo">
+	<img src = "img\page_1\logo.png" class = "img_logo">
 	<div class = "string_small string_box_1">
 		<%-- ¼­ºê ½ºÆ®¸µ ºóÄ­ --%>
 		
