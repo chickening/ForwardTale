@@ -19,10 +19,10 @@
 	친구의 일정
 	</button>
 	<button class ="button_menu button_color_4">
-	설정
+	친구 관리
 	</button>
 	<button class ="button_menu button_color_5">
-	오늘의 일정
+	설정 
 	</button>
 	<button class ="button_menu button_color_6">
 	끝내기
