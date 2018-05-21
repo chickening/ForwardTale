@@ -1,0 +1,30 @@
+.img_logo
+{
+	position : absolute;
+	width : 80%;
+	height : 35%;
+	left : 10%;
+	top : 10%;
+}
+#div_pre_login
+{
+	position : absolute;
+	width : 100%;
+	height : 15%;
+	bottom : 10%;
+}
+.btn_login
+{
+	position : absolute;
+	left : 20%;
+	width : 60%;
+	height : 100%;
+	
+	background-color : #8FBC94;
+	border : black solid 0px;
+	color : white;
+	font-size : 40px;
+	border-radius: 30px;
+}
+	
+	
