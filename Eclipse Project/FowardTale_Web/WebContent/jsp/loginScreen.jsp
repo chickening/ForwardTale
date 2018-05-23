@@ -5,6 +5,8 @@
 <head>
 <link href= "..\css\loginScreen.css" rel ="stylesheet" type = "text/css">	
 <link href= "..\css\general.css" rel ="stylesheet" type = "text/css">	
+<link href= "..\bootstrap\css\bootstrap.css" rel ="stylesheet" type = "text/css">	
+<link href= "..\bootstrap\css\bootstrap-theme.css" rel ="stylesheet" type = "text/css">	
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
 <script src = "..\js\jquery.js"></script>
@@ -31,10 +33,16 @@
 	</button>
 </div>
 <div id = "div_login">
-	<form action = "login.jsp">
-		<input class = "tf_id" type = "text" value = "ID" name = "id"></input>
-		<input class = "tf_password" type = "password" value = "**" name = "password"></input>
-		<input class = "btn_submit" type = "submit" value = "로그인"></input>
+	<form action = "login.jsp" class = "form-inline">
+		<div class = "form-group">
+			<label for = "id">아이디</label>
+			<input class = "form-control" id="id" type = "text" placeholder = "아이디">
+		</div>
+		<div class = "form-group" style = "width : 50%">
+			<label for = "id">비밀번호</label>
+			<input class = "form-control" id="id" type = "password" placeholder = "비밀번호">
+		</div>
+		<button class="btn btn-default"id="id" type = "submit">로그인</button>
 	</form>
 </div>
 <script>

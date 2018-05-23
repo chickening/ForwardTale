@@ -28,4 +28,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/bootstrap</name>
+			<type>2</type>
+			<location>C:/Users/chickening/Documents/GitHub/ForwardTale/Eclipse Project/FowardTale_Web/WebContent/bootstrap</location>
+		</link>
+	</linkedResources>
 </projectDescription>
