@@ -10,43 +10,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
 <script src = "..\js\jquery.js"></script>
-<script>
-	function init()
-	{
-		$("#div_login").children().hide();
-		$("#div_login").hide();
-	}
-	function push_login()
-	{
-		$("#div_pre_login").show();
-		$("#div_pre_login").children().hide();
-		$("#div_login").show();
-		$("#div_login").children().show(300);
-	}
-</script>
 </head>
 <body>
 <img class = "img_logo" src = "..\img\logo.png">
-<div id = "div_pre_login">
-	<button class = "btn_login" onclick = "push_login()">
-		로그인
-	</button>
-</div>
-<div id = "div_login">
-	<form action = "login.jsp" class = "form-inline">
+	<form id = "div_login" action = "login.jsp">
 		<div class = "form-group">
-			<label for = "id">아이디</label>
-			<input class = "form-control" id="id" type = "text" placeholder = "아이디">
+			<input class = "form-control input-lg" id="id" type = "text" placeholder = "아이디">
 		</div>
-		<div class = "form-group" style = "width : 50%">
-			<label for = "id">비밀번호</label>
-			<input class = "form-control" id="id" type = "password" placeholder = "비밀번호">
+		<div class = "form-group">
+			<input class = "form-control input-lg" id="id" type = "password" placeholder = "비밀번호">
 		</div>
-		<button class="btn btn-default"id="id" type = "submit">로그인</button>
+		<div class = "col-sm-4"></div>
+		<button class="btn-primary btn-lg col-sm-4" id="id" type = "submit">로그인</button>
 	</form>
-</div>
-<script>
-	init();
-</script>
 </body>
 </html>
