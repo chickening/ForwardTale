@@ -1,8 +1,9 @@
-body
+body,html
 {
 	width : 540px;
 	height : 960px;
 	border : black solid 5px;
 	position : absolute;
+	overflow: hidden;
 }
 	
