@@ -1,4 +1,5 @@
 <%@page import="sun.swing.SwingUtilities2.Section"%>
+<%@page import="java.util.*" %>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -14,8 +15,11 @@
 		
 		boolean canLogin = false;
 		//MySQL 불러오는 코드 넣기
-		
-		
+			HashMap<String , String> map = new HashMap<String , String>();
+			map.put("chickening", "12345");
+			String compId = map.get(id);
+			if(compId != null && compId.equals(password))
+				canLogin = true;
 		//
 		if(canLogin)
 		{

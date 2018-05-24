@@ -1,25 +1,31 @@
-.img_logo
-{
-	position : absolute;
-	width : 80%;
-	height : 35%;
-	left : 10%;
-	top : 10%;
-}
-#div_pre_login
-{
-	position : absolute;
-	width : 60%;
-	height : auto;
-	left : 20%;
-	bottom : 10%;
-}
+body {
+  background-color: #B3FF86; }
 
-#div_login
-{
-	position : absolute;
-	width : 60%;
-	height : auto;
-	left : 20%;
-	bottom : 10%;
-}
+.img_logo {
+  position: absolute;
+  width: 80%;
+  height: 35%;
+  left: 10%;
+  top: 10%; }
+
+#div_pre_login {
+  position: absolute;
+  width: 60%;
+  height: auto;
+  left: 20%;
+  bottom: 10%; }
+
+#div_login {
+  position: absolute;
+  width: 60%;
+  height: auto;
+  left: 20%;
+  bottom: 10%; }
+
+.label_click_anything {
+  font-size: 25px;
+  color: black;
+  weight: 400;
+  text-align: center; }
+
+/*# sourceMappingURL=loginScreen.css.map */
