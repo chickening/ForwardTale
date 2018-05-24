@@ -1,0 +1,64 @@
+$col : 3;
+$row : 5;
+$color1 : #AA5939; //red
+$color2 : #AA8E39; //yeloow
+$color3 : #294F6D; //blue
+
+.u_btn
+{
+    position : relative;
+    height : 100%;
+    border : black none 0px;
+    font-size : 40px;
+    color : white;
+    margin : 0px;
+    padding : 0px;
+}
+.u_btn_col_1
+{
+    @extend .u_btn;
+    width : 100% / $col;
+}
+.u_btn_col_2
+{
+    @extend .u_btn;
+    width : 200% / $col;
+}
+.u_btn_col_3 
+{
+    @extend .u_btn;
+    width : 300% / $col;
+}
+.div_btn_group
+{
+    height : 100% / $row;
+    width : 100%;
+}
+.color_1
+{
+    background: $color3; 
+}
+.color_2
+{
+    background: $color1;
+}
+.color_3
+{
+    background: $color2;
+}
+.color_4
+{
+    background: $color3 + #111;
+}
+.color_5
+{
+    background: $color1 + #111;
+}
+.color_6
+{
+    background: $color2 + #222;
+}
+.color_7
+{
+    background: $color3 + #222;
+}

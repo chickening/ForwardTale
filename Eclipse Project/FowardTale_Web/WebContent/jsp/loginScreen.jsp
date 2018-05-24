@@ -24,13 +24,13 @@
 	<div id = "div_login">
 		<form action = "login.jsp">
 			<div class = "form-group">
-				<input class = "form-control input-lg" id="id" type = "text" placeholder = "아이디">
+				<input class = "form-control input-lg" name = "id" type = "text" placeholder = "아이디">
 			</div>
 			<div class = "form-group">
-				<input class = "form-control input-lg" id="id" type = "password" placeholder = "비밀번호">
+				<input class = "form-control input-lg" name = "password" type = "password" placeholder = "비밀번호">
 			</div>
 			<div class = "col-sm-4"></div>
-			<button class="btn-primary btn-lg col-sm-4" id="id"type = "submit">로그인</button>
+			<button class="btn-primary btn-lg col-sm-4" type = "submit">로그인</button>
 		</form>
 		<br>
 		<br>
