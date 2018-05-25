@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<link href= "..\css\makeScheduleScreen.css" rel ="stylesheet" type = "text/css">	
+ <link href= "..\css\makeScheduleScreen.css" rel ="stylesheet" type = "text/css">
 <link href= "..\css\general.css" rel ="stylesheet" type = "text/css">
 <script src = "..\js\jquery.js"></script>
 <title>Insert title here</title>
